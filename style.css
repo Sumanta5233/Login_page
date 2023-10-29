@@ -1,0 +1,128 @@
+body {
+    background-image: url(bg.jpg);
+    width: auto;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: 0 40px 60px black;
+    margin-top: 95px;
+    height: 650px;
+    width: 500px;
+    backdrop-filter: blur(18px);
+}
+
+.SBG{
+    height: 250px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#login-form{
+    padding: 20px 40px;
+}
+
+.tnt, .sum{
+    border-radius: 20px;
+    background: transparent;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.check{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+label {
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+}
+
+button.s2 {
+    background-color: transparent;
+    outline: 1px solid whitesmoke;
+    font-weight: 800;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.s1 {
+    width: 15%;
+    padding: 11px 7px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+}
+
+#log {
+    text-align: center;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.s2:hover {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: 1.2s ease;
+}
+
+[type="checkbox"]
+{
+    vertical-align:middle;
+}
+
+[type="text"], [type="password"]{
+    background-color: transparent;
+    border: 1px solid white;
+    color: whitesmoke;
+}
+
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 10px;
+}
